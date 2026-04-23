@@ -1,27 +1,7 @@
-
-Go to file
-t
-T
-Name		
-WorldCupIsHere
-WorldCupIsHere
-Add files via upload
-71bc1e5
- · 
-21 minutes ago
-.env.example
-Add files via upload
-21 minutes ago
-.gitignore
-Add files via upload
-21 minutes ago
-Procfile
-Add files via upload
-21 minutes ago
-main.py
-Add files via upload
-21 minutes ago
-requirements.txt
-Add files via upload
-21 minutes ago
-
+fastapi==0.104.1
+uvicorn==0.24.0
+supabase==1.0.3
+python-dotenv==1.0.0
+resend==0.8.0
+httpx==0.25.0
+pydantic==2.5.0
