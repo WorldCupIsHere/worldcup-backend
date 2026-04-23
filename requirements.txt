@@ -1,36 +1,27 @@
-# World Cup 2026 Ticket Tracker — Python dependencies
-# Install with: pip install -r requirements.txt
 
-# Web framework
-fastapi==0.115.5
+Go to file
+t
+T
+Name		
+WorldCupIsHere
+WorldCupIsHere
+Add files via upload
+71bc1e5
+ · 
+21 minutes ago
+.env.example
+Add files via upload
+21 minutes ago
+.gitignore
+Add files via upload
+21 minutes ago
+Procfile
+Add files via upload
+21 minutes ago
+main.py
+Add files via upload
+21 minutes ago
+requirements.txt
+Add files via upload
+21 minutes ago
 
-# ASGI server (the [standard] extra adds websocket + faster performance)
-uvicorn[standard]==0.32.1
-
-# Supabase Python client (handles auth + database)
-supabase==2.10.0
-
-# Load variables from your .env file
-python-dotenv==1.0.1
-
-# Data validation (FastAPI uses this internally; [email] adds EmailStr support)
-pydantic[email]==2.10.3
-
-# HTTP client for future scraper requests (fast, async-capable)
-httpx==0.28.1
-
-# ─────────────────────────────────────────────────────────────
-# FUTURE ADDITIONS (uncomment when ready)
-# ─────────────────────────────────────────────────────────────
-
-# Email alerts via Resend
-# resend==2.4.0
-
-# Task scheduling (run check-prices automatically every hour)
-# apscheduler==3.10.4
-
-# Redis-based rate limiting (protect scraper from being banned)
-# slowapi==0.1.9
-
-# Better logging in production
-# loguru==0.7.2
